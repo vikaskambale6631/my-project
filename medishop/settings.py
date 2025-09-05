@@ -59,7 +59,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'vikaskambale6631$medishop',      # PythonAnywhere DB name
         'USER': 'vikaskambale6631',              # PythonAnywhere username
-        'PASSWORD': 'TumharaDBPasswordYahan',     # apna DB password
+        'PASSWORD': 'YahanApnaDBPassword',       # apna DB password daalo
         'HOST': 'vikaskambale6631.mysql.pythonanywhere-services.com',
         'PORT': '3306',
     }
