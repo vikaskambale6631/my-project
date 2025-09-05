@@ -51,10 +51,15 @@ ASGI_APPLICATION = 'medishop.asgi.application'
 # SQLite database (PythonAnywhere free plan ke liye)
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',  # ye ek file banayega project ke root me
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'vikaskambale6631$medishop',  # PythonAnywhere ka DB name
+        'USER': 'vikaskambale6631',          # PythonAnywhere username
+        'PASSWORD': 'tumhara-db-password',    # jo password set kiya
+        'HOST': 'vikaskambale6631.mysql.pythonanywhere-services.com',
+        'PORT': '3306',
     }
 }
+
 
 AUTH_PASSWORD_VALIDATORS = [
     {'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',},
