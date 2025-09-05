@@ -1,0 +1,894 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "slugify",
+        "importPath": "django.utils.text",
+        "description": "django.utils.text",
+        "isExtraImport": true,
+        "detail": "django.utils.text",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "user_passes_test",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "Q",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "F",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "medishop.asgi",
+        "description": "medishop.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "medishop.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "medishop.settings",
+        "description": "medishop.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\nSECRET_KEY = 'django-insecure-change-this-key'\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "detail": "medishop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "medishop.settings",
+        "description": "medishop.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-change-this-key'\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "medishop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "medishop.settings",
+        "description": "medishop.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = [\"*\"]\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'store',",
+        "detail": "medishop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "medishop.settings",
+        "description": "medishop.settings",
+        "peekOfCode": "ALLOWED_HOSTS = [\"*\"]\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'store',\n]",
+        "detail": "medishop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "medishop.settings",
+        "description": "medishop.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'store',\n]\nMIDDLEWARE = [",
+        "detail": "medishop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "medishop.settings",
+        "description": "medishop.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'medishop.urls'",
+        "detail": "medishop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "medishop.settings",
+        "description": "medishop.settings",
+        "peekOfCode": "ROOT_URLCONF = 'medishop.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "medishop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "medishop.settings",
+        "description": "medishop.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "medishop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "medishop.settings",
+        "description": "medishop.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'medishop.wsgi.application'\nASGI_APPLICATION = 'medishop.asgi.application'\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.mysql',\n        'NAME': 'medishop',\n        'USER':'root',\n        'PASSWORD':'Python@6631',\n        'HOST':'localhost',\n        'PORT':'3306'",
+        "detail": "medishop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ASGI_APPLICATION",
+        "kind": 5,
+        "importPath": "medishop.settings",
+        "description": "medishop.settings",
+        "peekOfCode": "ASGI_APPLICATION = 'medishop.asgi.application'\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.mysql',\n        'NAME': 'medishop',\n        'USER':'root',\n        'PASSWORD':'Python@6631',\n        'HOST':'localhost',\n        'PORT':'3306'\n    }",
+        "detail": "medishop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "medishop.settings",
+        "description": "medishop.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.mysql',\n        'NAME': 'medishop',\n        'USER':'root',\n        'PASSWORD':'Python@6631',\n        'HOST':'localhost',\n        'PORT':'3306'\n    }\n}",
+        "detail": "medishop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "medishop.settings",
+        "description": "medishop.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "medishop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "medishop.settings",
+        "description": "medishop.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'Asia/Kolkata'\nUSE_I18N = True\nUSE_TZ = True\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [BASE_DIR / 'static']\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "medishop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "medishop.settings",
+        "description": "medishop.settings",
+        "peekOfCode": "TIME_ZONE = 'Asia/Kolkata'\nUSE_I18N = True\nUSE_TZ = True\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [BASE_DIR / 'static']\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_REDIRECT_URL = 'home'",
+        "detail": "medishop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "medishop.settings",
+        "description": "medishop.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [BASE_DIR / 'static']\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_REDIRECT_URL = 'home'\nLOGOUT_REDIRECT_URL = 'home'",
+        "detail": "medishop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "medishop.settings",
+        "description": "medishop.settings",
+        "peekOfCode": "USE_TZ = True\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [BASE_DIR / 'static']\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_REDIRECT_URL = 'home'\nLOGOUT_REDIRECT_URL = 'home'\nLOGIN_URL = 'login'",
+        "detail": "medishop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "medishop.settings",
+        "description": "medishop.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = [BASE_DIR / 'static']\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_REDIRECT_URL = 'home'\nLOGOUT_REDIRECT_URL = 'home'\nLOGIN_URL = 'login'",
+        "detail": "medishop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "medishop.settings",
+        "description": "medishop.settings",
+        "peekOfCode": "STATICFILES_DIRS = [BASE_DIR / 'static']\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_REDIRECT_URL = 'home'\nLOGOUT_REDIRECT_URL = 'home'\nLOGIN_URL = 'login'",
+        "detail": "medishop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "medishop.settings",
+        "description": "medishop.settings",
+        "peekOfCode": "STATIC_ROOT = BASE_DIR / 'staticfiles'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_REDIRECT_URL = 'home'\nLOGOUT_REDIRECT_URL = 'home'\nLOGIN_URL = 'login'",
+        "detail": "medishop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "medishop.settings",
+        "description": "medishop.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_REDIRECT_URL = 'home'\nLOGOUT_REDIRECT_URL = 'home'\nLOGIN_URL = 'login'",
+        "detail": "medishop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "medishop.settings",
+        "description": "medishop.settings",
+        "peekOfCode": "MEDIA_ROOT = BASE_DIR / 'media'\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_REDIRECT_URL = 'home'\nLOGOUT_REDIRECT_URL = 'home'\nLOGIN_URL = 'login'",
+        "detail": "medishop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "medishop.settings",
+        "description": "medishop.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_REDIRECT_URL = 'home'\nLOGOUT_REDIRECT_URL = 'home'\nLOGIN_URL = 'login'",
+        "detail": "medishop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "medishop.settings",
+        "description": "medishop.settings",
+        "peekOfCode": "LOGIN_REDIRECT_URL = 'home'\nLOGOUT_REDIRECT_URL = 'home'\nLOGIN_URL = 'login'",
+        "detail": "medishop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGOUT_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "medishop.settings",
+        "description": "medishop.settings",
+        "peekOfCode": "LOGOUT_REDIRECT_URL = 'home'\nLOGIN_URL = 'login'",
+        "detail": "medishop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "medishop.settings",
+        "description": "medishop.settings",
+        "peekOfCode": "LOGIN_URL = 'login'",
+        "detail": "medishop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "medishop.urls",
+        "description": "medishop.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('store.urls')),\n    path('accounts/', include('django.contrib.auth.urls')),\n] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "medishop.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "medishop.wsgi",
+        "description": "medishop.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "medishop.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryAdmin",
+        "kind": 6,
+        "importPath": "store.admin",
+        "description": "store.admin",
+        "peekOfCode": "class CategoryAdmin(admin.ModelAdmin):\n    list_display = ('id', 'name', 'slug')\n    prepopulated_fields = {'slug': ('name',)}\n    search_fields = ('name',)\n@admin.register(Medicine)\nclass MedicineAdmin(admin.ModelAdmin):\n    list_display = ('id', 'name', 'brand', 'price', 'stock', 'rx_required', 'category')\n    list_filter = ('rx_required', 'category')\n    search_fields = ('name', 'brand', 'description')\n    prepopulated_fields = {'slug': ('name',)}",
+        "detail": "store.admin",
+        "documentation": {}
+    },
+    {
+        "label": "MedicineAdmin",
+        "kind": 6,
+        "importPath": "store.admin",
+        "description": "store.admin",
+        "peekOfCode": "class MedicineAdmin(admin.ModelAdmin):\n    list_display = ('id', 'name', 'brand', 'price', 'stock', 'rx_required', 'category')\n    list_filter = ('rx_required', 'category')\n    search_fields = ('name', 'brand', 'description')\n    prepopulated_fields = {'slug': ('name',)}\n@admin.register(Address)\nclass AddressAdmin(admin.ModelAdmin):\n    list_display = ('id', 'user', 'line1', 'city', 'state', 'pincode', 'is_default')\n    list_filter = ('city', 'state')\n    search_fields = ('line1', 'city', 'state', 'pincode')",
+        "detail": "store.admin",
+        "documentation": {}
+    },
+    {
+        "label": "AddressAdmin",
+        "kind": 6,
+        "importPath": "store.admin",
+        "description": "store.admin",
+        "peekOfCode": "class AddressAdmin(admin.ModelAdmin):\n    list_display = ('id', 'user', 'line1', 'city', 'state', 'pincode', 'is_default')\n    list_filter = ('city', 'state')\n    search_fields = ('line1', 'city', 'state', 'pincode')\nclass CartItemInline(admin.TabularInline):\n    model = CartItem\n    extra = 0\n@admin.register(Cart)\nclass CartAdmin(admin.ModelAdmin):\n    list_display = ('id', 'user', 'updated_at')",
+        "detail": "store.admin",
+        "documentation": {}
+    },
+    {
+        "label": "CartItemInline",
+        "kind": 6,
+        "importPath": "store.admin",
+        "description": "store.admin",
+        "peekOfCode": "class CartItemInline(admin.TabularInline):\n    model = CartItem\n    extra = 0\n@admin.register(Cart)\nclass CartAdmin(admin.ModelAdmin):\n    list_display = ('id', 'user', 'updated_at')\n    inlines = [CartItemInline]\nclass OrderItemInline(admin.TabularInline):\n    model = OrderItem\n    extra = 0",
+        "detail": "store.admin",
+        "documentation": {}
+    },
+    {
+        "label": "CartAdmin",
+        "kind": 6,
+        "importPath": "store.admin",
+        "description": "store.admin",
+        "peekOfCode": "class CartAdmin(admin.ModelAdmin):\n    list_display = ('id', 'user', 'updated_at')\n    inlines = [CartItemInline]\nclass OrderItemInline(admin.TabularInline):\n    model = OrderItem\n    extra = 0\n@admin.register(Order)\nclass OrderAdmin(admin.ModelAdmin):\n    list_display = ('id', 'user', 'total_amount', 'payment_status', 'order_status', 'created_at')\n    list_filter = ('payment_status', 'order_status', 'created_at')",
+        "detail": "store.admin",
+        "documentation": {}
+    },
+    {
+        "label": "OrderItemInline",
+        "kind": 6,
+        "importPath": "store.admin",
+        "description": "store.admin",
+        "peekOfCode": "class OrderItemInline(admin.TabularInline):\n    model = OrderItem\n    extra = 0\n@admin.register(Order)\nclass OrderAdmin(admin.ModelAdmin):\n    list_display = ('id', 'user', 'total_amount', 'payment_status', 'order_status', 'created_at')\n    list_filter = ('payment_status', 'order_status', 'created_at')\n    search_fields = ('id', 'user__username')\n    inlines = [OrderItemInline]\n@admin.register(Prescription)",
+        "detail": "store.admin",
+        "documentation": {}
+    },
+    {
+        "label": "OrderAdmin",
+        "kind": 6,
+        "importPath": "store.admin",
+        "description": "store.admin",
+        "peekOfCode": "class OrderAdmin(admin.ModelAdmin):\n    list_display = ('id', 'user', 'total_amount', 'payment_status', 'order_status', 'created_at')\n    list_filter = ('payment_status', 'order_status', 'created_at')\n    search_fields = ('id', 'user__username')\n    inlines = [OrderItemInline]\n@admin.register(Prescription)\nclass PrescriptionAdmin(admin.ModelAdmin):\n    list_display = ('id', 'user', 'order', 'created_at')\n    search_fields = ('user__username',)",
+        "detail": "store.admin",
+        "documentation": {}
+    },
+    {
+        "label": "PrescriptionAdmin",
+        "kind": 6,
+        "importPath": "store.admin",
+        "description": "store.admin",
+        "peekOfCode": "class PrescriptionAdmin(admin.ModelAdmin):\n    list_display = ('id', 'user', 'order', 'created_at')\n    search_fields = ('user__username',)",
+        "detail": "store.admin",
+        "documentation": {}
+    },
+    {
+        "label": "StoreConfig",
+        "kind": 6,
+        "importPath": "store.apps",
+        "description": "store.apps",
+        "peekOfCode": "class StoreConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'store'",
+        "detail": "store.apps",
+        "documentation": {}
+    },
+    {
+        "label": "SignUpForm",
+        "kind": 6,
+        "importPath": "store.forms",
+        "description": "store.forms",
+        "peekOfCode": "class SignUpForm(UserCreationForm):\n    email = forms.EmailField(required=True)\n    class Meta:\n        model = User\n        fields = ('username', 'email', 'password1', 'password2')\nclass AddressForm(forms.ModelForm):\n    class Meta:\n        model = Address\n        fields = ['line1', 'line2', 'city', 'state', 'pincode', 'country', 'is_default']\nclass MedicineForm(forms.ModelForm):",
+        "detail": "store.forms",
+        "documentation": {}
+    },
+    {
+        "label": "AddressForm",
+        "kind": 6,
+        "importPath": "store.forms",
+        "description": "store.forms",
+        "peekOfCode": "class AddressForm(forms.ModelForm):\n    class Meta:\n        model = Address\n        fields = ['line1', 'line2', 'city', 'state', 'pincode', 'country', 'is_default']\nclass MedicineForm(forms.ModelForm):\n    class Meta:\n        model = Medicine\n        fields = ['name', 'brand', 'description', 'category', 'price', 'stock', 'rx_required', 'image']\nclass PrescriptionForm(forms.ModelForm):\n    class Meta:",
+        "detail": "store.forms",
+        "documentation": {}
+    },
+    {
+        "label": "MedicineForm",
+        "kind": 6,
+        "importPath": "store.forms",
+        "description": "store.forms",
+        "peekOfCode": "class MedicineForm(forms.ModelForm):\n    class Meta:\n        model = Medicine\n        fields = ['name', 'brand', 'description', 'category', 'price', 'stock', 'rx_required', 'image']\nclass PrescriptionForm(forms.ModelForm):\n    class Meta:\n        model = Prescription\n        fields = ['file']",
+        "detail": "store.forms",
+        "documentation": {}
+    },
+    {
+        "label": "PrescriptionForm",
+        "kind": 6,
+        "importPath": "store.forms",
+        "description": "store.forms",
+        "peekOfCode": "class PrescriptionForm(forms.ModelForm):\n    class Meta:\n        model = Prescription\n        fields = ['file']",
+        "detail": "store.forms",
+        "documentation": {}
+    },
+    {
+        "label": "TimeStamped",
+        "kind": 6,
+        "importPath": "store.models",
+        "description": "store.models",
+        "peekOfCode": "class TimeStamped(models.Model):\n    created_at = models.DateTimeField(auto_now_add=True)\n    updated_at = models.DateTimeField(auto_now=True)\n    class Meta:\n        abstract = True\nclass Category(TimeStamped):\n    name = models.CharField(max_length=100, unique=True)\n    slug = models.SlugField(max_length=120, unique=True)\n    def __str__(self):\n        return self.name",
+        "detail": "store.models",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "kind": 6,
+        "importPath": "store.models",
+        "description": "store.models",
+        "peekOfCode": "class Category(TimeStamped):\n    name = models.CharField(max_length=100, unique=True)\n    slug = models.SlugField(max_length=120, unique=True)\n    def __str__(self):\n        return self.name\nclass Medicine(TimeStamped):\n    name = models.CharField(max_length=200)\n    slug = models.SlugField(max_length=220, unique=True)\n    brand = models.CharField(max_length=120, blank=True)\n    description = models.TextField(blank=True)",
+        "detail": "store.models",
+        "documentation": {}
+    },
+    {
+        "label": "Medicine",
+        "kind": 6,
+        "importPath": "store.models",
+        "description": "store.models",
+        "peekOfCode": "class Medicine(TimeStamped):\n    name = models.CharField(max_length=200)\n    slug = models.SlugField(max_length=220, unique=True)\n    brand = models.CharField(max_length=120, blank=True)\n    description = models.TextField(blank=True)\n    category = models.ForeignKey(Category, on_delete=models.SET_NULL, null=True, related_name='medicines')\n    price = models.DecimalField(max_digits=10, decimal_places=2)\n    stock = models.PositiveIntegerField(default=0)\n    rx_required = models.BooleanField(default=False)\n    image = models.ImageField(upload_to='products/', blank=True, null=True)",
+        "detail": "store.models",
+        "documentation": {}
+    },
+    {
+        "label": "Address",
+        "kind": 6,
+        "importPath": "store.models",
+        "description": "store.models",
+        "peekOfCode": "class Address(TimeStamped):\n    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='addresses')\n    line1 = models.CharField(max_length=255)\n    line2 = models.CharField(max_length=255, blank=True)\n    city = models.CharField(max_length=100)\n    state = models.CharField(max_length=100)\n    pincode = models.CharField(max_length=10)\n    country = models.CharField(max_length=100, default='India')\n    is_default = models.BooleanField(default=False)\n    def __str__(self):",
+        "detail": "store.models",
+        "documentation": {}
+    },
+    {
+        "label": "Cart",
+        "kind": 6,
+        "importPath": "store.models",
+        "description": "store.models",
+        "peekOfCode": "class Cart(TimeStamped):\n    user = models.OneToOneField(User, on_delete=models.CASCADE, related_name='cart')\n    def __str__(self):\n        return f\"Cart of {self.user.username}\"\n    @property\n    def total_items(self):\n        return sum(item.quantity for item in self.items.all())\n    @property\n    def total_amount(self):\n        return sum(item.subtotal for item in self.items.select_related('medicine'))",
+        "detail": "store.models",
+        "documentation": {}
+    },
+    {
+        "label": "CartItem",
+        "kind": 6,
+        "importPath": "store.models",
+        "description": "store.models",
+        "peekOfCode": "class CartItem(TimeStamped):\n    cart = models.ForeignKey(Cart, on_delete=models.CASCADE, related_name='items')\n    medicine = models.ForeignKey(Medicine, on_delete=models.CASCADE)\n    quantity = models.PositiveIntegerField(default=1)\n    class Meta:\n        unique_together = ('cart', 'medicine')\n    @property\n    def subtotal(self):\n        return float(self.medicine.price) * self.quantity\n    def __str__(self):",
+        "detail": "store.models",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "kind": 6,
+        "importPath": "store.models",
+        "description": "store.models",
+        "peekOfCode": "class Order(TimeStamped):\n    PAYMENT_STATUS_CHOICES = [\n        ('pending', 'Pending'),\n        ('paid', 'Paid'),\n        ('failed', 'Failed'),\n        ('cod', 'Cash on Delivery'),\n    ]\n    ORDER_STATUS_CHOICES = [\n        ('placed', 'Placed'),\n        ('confirmed', 'Confirmed'),",
+        "detail": "store.models",
+        "documentation": {}
+    },
+    {
+        "label": "OrderItem",
+        "kind": 6,
+        "importPath": "store.models",
+        "description": "store.models",
+        "peekOfCode": "class OrderItem(TimeStamped):\n    order = models.ForeignKey(Order, on_delete=models.CASCADE, related_name='items')\n    medicine = models.ForeignKey(Medicine, on_delete=models.SET_NULL, null=True)\n    quantity = models.PositiveIntegerField(default=1)\n    price = models.DecimalField(max_digits=10, decimal_places=2)\n    def __str__(self):\n        return f\"{self.medicine} x {self.quantity}\"\nclass Prescription(TimeStamped):\n    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='prescriptions')\n    order = models.OneToOneField(Order, on_delete=models.CASCADE, related_name='prescription', null=True, blank=True)",
+        "detail": "store.models",
+        "documentation": {}
+    },
+    {
+        "label": "Prescription",
+        "kind": 6,
+        "importPath": "store.models",
+        "description": "store.models",
+        "peekOfCode": "class Prescription(TimeStamped):\n    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='prescriptions')\n    order = models.OneToOneField(Order, on_delete=models.CASCADE, related_name='prescription', null=True, blank=True)\n    file = models.FileField(upload_to='prescriptions/')\n    def __str__(self):\n        return f\"Prescription #{self.id} - {self.user.username}\"",
+        "detail": "store.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "store.urls",
+        "description": "store.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.home, name='home'),\n    path('signup/', views.signup_view, name='signup'),\n    # Catalog & Product\n    path('category/<slug:slug>/', views.product_list, name='product_list_by_category'),\n    path('products/', views.product_list, name='product_list'),\n    path('product/<slug:slug>/', views.product_detail, name='product_detail'),\n    # Cart\n    path('cart/', views.cart_view, name='cart'),\n    path('cart/add/<int:medicine_id>/', views.add_to_cart, name='add_to_cart'),",
+        "detail": "store.urls",
+        "documentation": {}
+    },
+    {
+        "label": "is_staff",
+        "kind": 2,
+        "importPath": "store.views",
+        "description": "store.views",
+        "peekOfCode": "def is_staff(user):\n    return user.is_staff\n# ---------- Public & User Module ----------\ndef home(request):\n    categories = Category.objects.all().order_by('name')\n    medicines = Medicine.objects.order_by('-created_at')[:8]\n    q = request.GET.get('q')\n    if q:\n        medicines = Medicine.objects.filter(\n            Q(name__icontains=q) | Q(brand__icontains=q) | Q(description__icontains=q)",
+        "detail": "store.views",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "store.views",
+        "description": "store.views",
+        "peekOfCode": "def home(request):\n    categories = Category.objects.all().order_by('name')\n    medicines = Medicine.objects.order_by('-created_at')[:8]\n    q = request.GET.get('q')\n    if q:\n        medicines = Medicine.objects.filter(\n            Q(name__icontains=q) | Q(brand__icontains=q) | Q(description__icontains=q)\n        )\n    return render(request, 'store/home.html', {'categories': categories, 'medicines': medicines})\ndef product_list(request, slug=None):",
+        "detail": "store.views",
+        "documentation": {}
+    },
+    {
+        "label": "product_list",
+        "kind": 2,
+        "importPath": "store.views",
+        "description": "store.views",
+        "peekOfCode": "def product_list(request, slug=None):\n    category = None\n    categories = Category.objects.all().order_by('name')\n    medicines = Medicine.objects.all()\n    q = request.GET.get('q')\n    if slug:\n        category = get_object_or_404(Category, slug=slug)\n        medicines = medicines.filter(category=category)\n    if q:\n        medicines = medicines.filter(Q(name__icontains=q) | Q(brand__icontains=q) | Q(description__icontains=q))",
+        "detail": "store.views",
+        "documentation": {}
+    },
+    {
+        "label": "product_detail",
+        "kind": 2,
+        "importPath": "store.views",
+        "description": "store.views",
+        "peekOfCode": "def product_detail(request, slug):\n    product = get_object_or_404(Medicine, slug=slug)\n    return render(request, 'store/product_detail.html', {'product': product})\ndef _get_or_create_cart(user):\n    cart, _ = Cart.objects.get_or_create(user=user)\n    return cart\n@login_required\ndef add_to_cart(request, medicine_id):\n    medicine = get_object_or_404(Medicine, id=medicine_id)\n    cart = _get_or_create_cart(request.user)",
+        "detail": "store.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_to_cart",
+        "kind": 2,
+        "importPath": "store.views",
+        "description": "store.views",
+        "peekOfCode": "def add_to_cart(request, medicine_id):\n    medicine = get_object_or_404(Medicine, id=medicine_id)\n    cart = _get_or_create_cart(request.user)\n    item, created = CartItem.objects.get_or_create(cart=cart, medicine=medicine)\n    if not created:\n        item.quantity = F('quantity') + 1\n        item.save()\n        item.refresh_from_db()\n    messages.success(request, f\"Added {medicine.name} to cart.\")\n    return redirect('cart')",
+        "detail": "store.views",
+        "documentation": {}
+    },
+    {
+        "label": "cart_view",
+        "kind": 2,
+        "importPath": "store.views",
+        "description": "store.views",
+        "peekOfCode": "def cart_view(request):\n    cart = _get_or_create_cart(request.user)\n    items = cart.items.select_related('medicine')\n    need_rx = any(i.medicine.rx_required for i in items)\n    return render(request, 'store/cart.html', {'cart': cart, 'items': items, 'need_rx': need_rx})\n@login_required\ndef update_cart_item(request, item_id):\n    item = get_object_or_404(CartItem, id=item_id, cart__user=request.user)\n    qty = int(request.POST.get('quantity', 1))\n    if qty <= 0:",
+        "detail": "store.views",
+        "documentation": {}
+    },
+    {
+        "label": "update_cart_item",
+        "kind": 2,
+        "importPath": "store.views",
+        "description": "store.views",
+        "peekOfCode": "def update_cart_item(request, item_id):\n    item = get_object_or_404(CartItem, id=item_id, cart__user=request.user)\n    qty = int(request.POST.get('quantity', 1))\n    if qty <= 0:\n        item.delete()\n    else:\n        item.quantity = qty\n        item.save()\n    return redirect('cart')\n@login_required",
+        "detail": "store.views",
+        "documentation": {}
+    },
+    {
+        "label": "remove_cart_item",
+        "kind": 2,
+        "importPath": "store.views",
+        "description": "store.views",
+        "peekOfCode": "def remove_cart_item(request, item_id):\n    item = get_object_or_404(CartItem, id=item_id, cart__user=request.user)\n    item.delete()\n    return redirect('cart')\n@login_required\ndef checkout(request):\n    cart = _get_or_create_cart(request.user)\n    items = cart.items.select_related('medicine')\n    if not items.exists():\n        messages.warning(request, \"Your cart is empty.\")",
+        "detail": "store.views",
+        "documentation": {}
+    },
+    {
+        "label": "checkout",
+        "kind": 2,
+        "importPath": "store.views",
+        "description": "store.views",
+        "peekOfCode": "def checkout(request):\n    cart = _get_or_create_cart(request.user)\n    items = cart.items.select_related('medicine')\n    if not items.exists():\n        messages.warning(request, \"Your cart is empty.\")\n        return redirect('product_list')\n    need_rx = any(i.medicine.rx_required for i in items)\n    if request.method == 'POST':\n        address_id = request.POST.get('address_id')\n        address = get_object_or_404(Address, id=address_id, user=request.user)",
+        "detail": "store.views",
+        "documentation": {}
+    },
+    {
+        "label": "order_success",
+        "kind": 2,
+        "importPath": "store.views",
+        "description": "store.views",
+        "peekOfCode": "def order_success(request, order_id):\n    order = get_object_or_404(Order, id=order_id, user=request.user)\n    return render(request, 'store/order_success.html', {'order': order})\n@login_required\ndef my_orders(request):\n    orders = Order.objects.filter(user=request.user).order_by('-created_at')\n    return render(request, 'store/orders.html', {'orders': orders})\n@login_required\ndef profile(request):\n    addresses = request.user.addresses.all().order_by('-is_default', '-created_at')",
+        "detail": "store.views",
+        "documentation": {}
+    },
+    {
+        "label": "my_orders",
+        "kind": 2,
+        "importPath": "store.views",
+        "description": "store.views",
+        "peekOfCode": "def my_orders(request):\n    orders = Order.objects.filter(user=request.user).order_by('-created_at')\n    return render(request, 'store/orders.html', {'orders': orders})\n@login_required\ndef profile(request):\n    addresses = request.user.addresses.all().order_by('-is_default', '-created_at')\n    form = AddressForm()\n    return render(request, 'store/profile.html', {'addresses': addresses, 'form': form})\n@login_required\ndef add_address(request):",
+        "detail": "store.views",
+        "documentation": {}
+    },
+    {
+        "label": "profile",
+        "kind": 2,
+        "importPath": "store.views",
+        "description": "store.views",
+        "peekOfCode": "def profile(request):\n    addresses = request.user.addresses.all().order_by('-is_default', '-created_at')\n    form = AddressForm()\n    return render(request, 'store/profile.html', {'addresses': addresses, 'form': form})\n@login_required\ndef add_address(request):\n    if request.method == 'POST':\n        form = AddressForm(request.POST)\n        if form.is_valid():\n            addr = form.save(commit=False)",
+        "detail": "store.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_address",
+        "kind": 2,
+        "importPath": "store.views",
+        "description": "store.views",
+        "peekOfCode": "def add_address(request):\n    if request.method == 'POST':\n        form = AddressForm(request.POST)\n        if form.is_valid():\n            addr = form.save(commit=False)\n            addr.user = request.user\n            if addr.is_default:\n                Address.objects.filter(user=request.user, is_default=True).update(is_default=False)\n            addr.save()\n    return redirect('profile')",
+        "detail": "store.views",
+        "documentation": {}
+    },
+    {
+        "label": "make_default_address",
+        "kind": 2,
+        "importPath": "store.views",
+        "description": "store.views",
+        "peekOfCode": "def make_default_address(request, address_id):\n    addr = get_object_or_404(Address, id=address_id, user=request.user)\n    Address.objects.filter(user=request.user, is_default=True).update(is_default=False)\n    addr.is_default = True\n    addr.save()\n    return redirect('profile')\ndef signup_view(request):\n    if request.method == 'POST':\n        form = SignUpForm(request.POST)\n        if form.is_valid():",
+        "detail": "store.views",
+        "documentation": {}
+    },
+    {
+        "label": "signup_view",
+        "kind": 2,
+        "importPath": "store.views",
+        "description": "store.views",
+        "peekOfCode": "def signup_view(request):\n    if request.method == 'POST':\n        form = SignUpForm(request.POST)\n        if form.is_valid():\n            user = form.save()\n            login(request, user)\n            Cart.objects.get_or_create(user=user)\n            messages.success(request, \"Welcome! Your account has been created.\")\n            return redirect('home')\n    else:",
+        "detail": "store.views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_dashboard",
+        "kind": 2,
+        "importPath": "store.views",
+        "description": "store.views",
+        "peekOfCode": "def admin_dashboard(request):\n    stats = {\n        'users': request.user.__class__.objects.count(),\n        'products': Medicine.objects.count(),\n        'orders': Order.objects.count(),\n        'pending_orders': Order.objects.filter(order_status='placed').count()\n    }\n    return render(request, 'store/admin_dashboard.html', stats)\n@user_passes_test(is_staff)\ndef admin_medicine_list(request):",
+        "detail": "store.views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_medicine_list",
+        "kind": 2,
+        "importPath": "store.views",
+        "description": "store.views",
+        "peekOfCode": "def admin_medicine_list(request):\n    q = request.GET.get('q')\n    meds = Medicine.objects.all().order_by('-created_at')\n    if q:\n        meds = meds.filter(Q(name__icontains=q) | Q(brand__icontains=q))\n    return render(request, 'store/admin_medicine_list.html', {'medicines': meds})\n@user_passes_test(is_staff)\ndef admin_medicine_create(request):\n    if request.method == 'POST':\n        form = MedicineForm(request.POST, request.FILES)",
+        "detail": "store.views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_medicine_create",
+        "kind": 2,
+        "importPath": "store.views",
+        "description": "store.views",
+        "peekOfCode": "def admin_medicine_create(request):\n    if request.method == 'POST':\n        form = MedicineForm(request.POST, request.FILES)\n        if form.is_valid():\n            form.save()\n            messages.success(request, \"Medicine added.\")\n            return redirect('admin_medicine_list')\n    else:\n        form = MedicineForm()\n    return render(request, 'store/admin_medicine_form.html', {'form': form, 'title': 'Add Medicine'})",
+        "detail": "store.views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_medicine_update",
+        "kind": 2,
+        "importPath": "store.views",
+        "description": "store.views",
+        "peekOfCode": "def admin_medicine_update(request, pk):\n    med = get_object_or_404(Medicine, pk=pk)\n    if request.method == 'POST':\n        form = MedicineForm(request.POST, request.FILES, instance=med)\n        if form.is_valid():\n            form.save()\n            messages.success(request, \"Medicine updated.\")\n            return redirect('admin_medicine_list')\n    else:\n        form = MedicineForm(instance=med)",
+        "detail": "store.views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_medicine_delete",
+        "kind": 2,
+        "importPath": "store.views",
+        "description": "store.views",
+        "peekOfCode": "def admin_medicine_delete(request, pk):\n    med = get_object_or_404(Medicine, pk=pk)\n    med.delete()\n    messages.success(request, \"Medicine deleted.\")\n    return redirect('admin_medicine_list')\n@user_passes_test(is_staff)\ndef admin_orders(request):\n    orders = Order.objects.select_related('user').order_by('-created_at')\n    return render(request, 'store/admin_orders.html', {'orders': orders})\n@user_passes_test(is_staff)",
+        "detail": "store.views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_orders",
+        "kind": 2,
+        "importPath": "store.views",
+        "description": "store.views",
+        "peekOfCode": "def admin_orders(request):\n    orders = Order.objects.select_related('user').order_by('-created_at')\n    return render(request, 'store/admin_orders.html', {'orders': orders})\n@user_passes_test(is_staff)\ndef admin_order_status(request, pk):\n    order = get_object_or_404(Order, pk=pk)\n    status = request.POST.get('order_status')\n    if status in dict(Order.ORDER_STATUS_CHOICES):\n        order.order_status = status\n        order.save()",
+        "detail": "store.views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_order_status",
+        "kind": 2,
+        "importPath": "store.views",
+        "description": "store.views",
+        "peekOfCode": "def admin_order_status(request, pk):\n    order = get_object_or_404(Order, pk=pk)\n    status = request.POST.get('order_status')\n    if status in dict(Order.ORDER_STATUS_CHOICES):\n        order.order_status = status\n        order.save()\n        messages.success(request, \"Order status updated.\")\n    return redirect('admin_orders')",
+        "detail": "store.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'medishop.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable?\"\n        ) from exc\n    execute_from_command_line(sys.argv)\nif __name__ == '__main__':",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

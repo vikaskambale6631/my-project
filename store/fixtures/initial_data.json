@@ -1,0 +1,117 @@
+[
+  {
+    "model": "store.category",
+    "pk": 1,
+    "fields": {
+      "name": "Pain Relief",
+      "slug": "pain-relief"
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 2,
+    "fields": {
+      "name": "Antibiotics",
+      "slug": "antibiotics"
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 3,
+    "fields": {
+      "name": "Vitamins",
+      "slug": "vitamins"
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 4,
+    "fields": {
+      "name": "Cough & Cold",
+      "slug": "cough-cold"
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 5,
+    "fields": {
+      "name": "Diabetes Care",
+      "slug": "diabetes-care"
+    }
+  },
+  {
+    "model": "store.medicine",
+    "pk": 1,
+    "fields": {
+      "name": "Paracetamol 500mg",
+      "slug": "paracetamol-500mg",
+      "brand": "Acme",
+      "description": "Pain reliever and fever reducer.",
+      "category": 1,
+      "price": "20.00",
+      "stock": 100,
+      "rx_required": false,
+      "image": ""
+    }
+  },
+  {
+    "model": "store.medicine",
+    "pk": 2,
+    "fields": {
+      "name": "Amoxicillin 250mg",
+      "slug": "amoxicillin-250mg",
+      "brand": "HealthPlus",
+      "description": "Antibiotic\u2014prescription required.",
+      "category": 2,
+      "price": "120.00",
+      "stock": 50,
+      "rx_required": true,
+      "image": ""
+    }
+  },
+  {
+    "model": "store.medicine",
+    "pk": 3,
+    "fields": {
+      "name": "Vitamin C 1000mg",
+      "slug": "vitamin-c-1000mg",
+      "brand": "NutriLife",
+      "description": "Immune support supplement.",
+      "category": 3,
+      "price": "250.00",
+      "stock": 80,
+      "rx_required": false,
+      "image": ""
+    }
+  },
+  {
+    "model": "store.medicine",
+    "pk": 4,
+    "fields": {
+      "name": "Cough Syrup 100ml",
+      "slug": "cough-syrup-100ml",
+      "brand": "ColdEase",
+      "description": "Relief from cough and throat irritation.",
+      "category": 4,
+      "price": "95.00",
+      "stock": 70,
+      "rx_required": false,
+      "image": ""
+    }
+  },
+  {
+    "model": "store.medicine",
+    "pk": 5,
+    "fields": {
+      "name": "Metformin 500mg",
+      "slug": "metformin-500mg",
+      "brand": "GlucoCare",
+      "description": "Helps control blood sugar (prescription required).",
+      "category": 5,
+      "price": "65.00",
+      "stock": 60,
+      "rx_required": true,
+      "image": ""
+    }
+  }
+]

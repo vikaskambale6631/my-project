@@ -1,0 +1,23 @@
+{% extends 'store/base.html' %}
+{% block content %}
+<h1>My Profile</h1>
+<h3>Addresses</h3>
+<div class="grid">
+    {% for a in addresses %}
+        <div class="card">
+            <p>{{ a.line1 }}, {{ a.city }} - {{ a.pincode }}</p>
+            <form action="{% url 'make_default_address' a.id %}" method="post">
+                {% csrf_token %}<button type="submit">Make Default</button>
+            </form>
+        </div>
+    {% empty %}
+        <p>No addresses yet.</p>
+    {% endfor %}
+</div>
+<h3>Add Address</h3>
+<form method="post" action="{% url 'add_address' %}">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Save</button>
+</form>
+{% endblock %}

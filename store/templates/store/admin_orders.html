@@ -1,0 +1,28 @@
+{% extends 'store/base.html' %}
+{% block content %}
+<h1>Orders</h1>
+<table class="table">
+    <tr><th>ID</th><th>User</th><th>Total</th><th>Status</th><th>Change</th></tr>
+    {% for o in orders %}
+    <tr>
+        <td>#{{ o.id }}</td>
+        <td>{{ o.user.username }}</td>
+        <td>₹ {{ o.total_amount }}</td>
+        <td>{{ o.order_status }}</td>
+        <td>
+            <form action="{% url 'admin_order_status' o.id %}" method="post">
+                {% csrf_token %}
+                <select name="order_status">
+                    {% for v, label in o.ORDER_STATUS_CHOICES %}
+                        <option value="{{ v }}" {% if v == o.order_status %}selected{% endif %}>{{ label }}</option>
+                    {% endfor %}
+                </select>
+                <button type="submit">Update</button>
+            </form>
+        </td>
+    </tr>
+    {% empty %}
+    <tr><td colspan="5">No orders found.</td></tr>
+    {% endfor %}
+</table>
+{% endblock %}

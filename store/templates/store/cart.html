@@ -1,0 +1,30 @@
+{% extends 'store/base.html' %}
+{% block content %}
+<h1>Your Cart</h1>
+<table class="table">
+    <tr><th>Medicine</th><th>Qty</th><th>Price</th><th>Subtotal</th><th></th></tr>
+    {% for item in items %}
+    <tr>
+        <td>{{ item.medicine.name }} {% if item.medicine.rx_required %}<span class="rx">RX</span>{% endif %}</td>
+        <td>
+            <form action="{% url 'update_cart_item' item.id %}" method="post" class="inline">
+                {% csrf_token %}
+                <input type="number" name="quantity" value="{{ item.quantity }}" min="0">
+                <button type="submit">Update</button>
+            </form>
+        </td>
+        <td>₹ {{ item.medicine.price }}</td>
+        <td>₹ {{ item.subtotal }}</td>
+        <td>
+            <form action="{% url 'remove_cart_item' item.id %}" method="post" class="inline">
+                {% csrf_token %}<button type="submit">Remove</button>
+            </form>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+<p><strong>Total:</strong> ₹ {{ cart.total_amount }}</p>
+{% if items %}
+    <a class="btn" href="{% url 'checkout' %}">Proceed to Checkout</a>
+{% endif %}
+{% endblock %}

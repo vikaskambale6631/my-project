@@ -1,0 +1,17 @@
+{% extends 'store/base.html' %}
+{% block content %}
+<h1>My Orders</h1>
+<table class="table">
+    <tr><th>ID</th><th>Status</th><th>Total</th><th>Date</th></tr>
+    {% for o in orders %}
+        <tr>
+            <td>#{{ o.id }}</td>
+            <td>{{ o.order_status }}</td>
+            <td>₹ {{ o.total_amount }}</td>
+            <td>{{ o.created_at }}</td>
+        </tr>
+    {% empty %}
+        <tr><td colspan="4">No orders yet.</td></tr>
+    {% endfor %}
+</table>
+{% endblock %}

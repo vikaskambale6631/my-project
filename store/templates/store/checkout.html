@@ -1,0 +1,25 @@
+{% extends 'store/base.html' %}
+{% block content %}
+<h1>Checkout</h1>
+<h3>Select Address</h3>
+<form method="post" enctype="multipart/form-data">
+{% csrf_token %}
+<div class="grid">
+    {% for a in addresses %}
+        <label class="card">
+            <input type="radio" name="address_id" value="{{ a.id }}" {% if a.is_default or forloop.first %}checked{% endif %}>
+            <div>{{ a.line1 }}, {{ a.city }} - {{ a.pincode }}</div>
+        </label>
+    {% empty %}
+        <p>No address found. Please add one in Profile.</p>
+    {% endfor %}
+</div>
+
+{% if need_rx %}
+<h3>Upload Prescription (required for some items)</h3>
+{{ pres_form.as_p }}
+{% endif %}
+
+<button type="submit">Place Order (COD)</button>
+</form>
+{% endblock %}

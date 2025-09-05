@@ -1,0 +1,12 @@
+{% extends 'store/base.html' %}
+{% block content %}
+<h1>Admin Dashboard</h1>
+<div class="grid four">
+    <div class="card"><div class="kpi">{{ users }}</div><div>Users</div></div>
+    <div class="card"><div class="kpi">{{ products }}</div><div>Medicines</div></div>
+    <div class="card"><div class="kpi">{{ orders }}</div><div>Total Orders</div></div>
+    <div class="card"><div class="kpi">{{ pending_orders }}</div><div>Pending</div></div>
+</div>
+<p><a class="btn" href="{% url 'admin_medicine_list' %}">Manage Medicines</a>
+   <a class="btn" href="{% url 'admin_orders' %}">Manage Orders</a></p>
+{% endblock %}
