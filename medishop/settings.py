@@ -3,10 +3,12 @@ import os
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+# SECURITY
 SECRET_KEY = 'django-insecure-change-this-key'
 DEBUG = False
-ALLOWED_HOSTS = ["vikaskambale6631.pythonanywhere.com"]  # apna PythonAnywhere username
+ALLOWED_HOSTS = ["vikaskambale6631.pythonanywhere.com"]  # apna PythonAnywhere domain
 
+# Applications
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -14,9 +16,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'store',
+    'store',  # tumhara app
 ]
 
+# Middleware
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -29,6 +32,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'medishop.urls'
 
+# Templates
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -45,22 +49,23 @@ TEMPLATES = [
     },
 ]
 
+# WSGI / ASGI
 WSGI_APPLICATION = 'medishop.wsgi.application'
 ASGI_APPLICATION = 'medishop.asgi.application'
 
-# SQLite database (PythonAnywhere free plan ke liye)
+# Database (PythonAnywhere MySQL)
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'vikaskambale6631$medishop',  # PythonAnywhere ka DB name
-        'USER': 'vikaskambale6631',          # PythonAnywhere username
-        'PASSWORD': 'tumhara-db-password',    # jo password set kiya
+        'NAME': 'vikaskambale6631$medishop',      # PythonAnywhere DB name
+        'USER': 'vikaskambale6631',              # PythonAnywhere username
+        'PASSWORD': 'TumharaDBPasswordYahan',     # apna DB password
         'HOST': 'vikaskambale6631.mysql.pythonanywhere-services.com',
         'PORT': '3306',
     }
 }
 
-
+# Password validators
 AUTH_PASSWORD_VALIDATORS = [
     {'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',},
     {'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',},
@@ -68,6 +73,7 @@ AUTH_PASSWORD_VALIDATORS = [
     {'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',},
 ]
 
+# Localization
 LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'Asia/Kolkata'
 USE_I18N = True
@@ -81,8 +87,10 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
+# Default auto field
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+# Authentication redirects
 LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home'
 LOGIN_URL = 'login'
